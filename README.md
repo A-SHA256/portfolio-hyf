@@ -1,7 +1,7 @@
-# Name of project
+# Portfolio
 
-> My first attempt to build a simple yet creative and functional website
-using HTML and CSS only.
+> My first attempt to build a simple yet creative and functional website using
+> HTML and CSS only.
 
 ## Table of contents
 
@@ -23,7 +23,7 @@ using HTML and CSS only.
 
 ## General info
 
-> This is the custom blog page that shares some of my interests.
+> This is the custom blog page that shares some interesting things.
 
 ## Screenshots
 
