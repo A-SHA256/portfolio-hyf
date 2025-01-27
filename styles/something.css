@@ -1,3 +1,96 @@
 body {
-  background-color: white;
+  margin: 0;
+  height: 100vh;
+  background-image: url("./page-images/background-5.gif");
+  background-repeat: repeat; /* Repeat the entire line horizontally and vertically */
+  background-size: 25%; /* Each image takes up 25% of the width of the page */
+  cursor: url("https://pixelart.academy/interface/cursors/2x/arrow.png") 2 0,
+    default;
+}
+
+header {
+  margin-top: 10%;
+}
+
+.header-box {
+  background-image: linear-gradient(red, yellow);
+  width: 30%;
+  margin: auto;
+  border-style: double;
+  border-color: rgb(243, 0, 0);
+  border-radius: 50%;
+  border-width: 20px;
+  box-shadow: 10px 10px 5px rgb(255, 43, 5);
+  box-shadow: 10px 5px 5px 2px inset rgb(255, 217, 5);
+  opacity: 0.85;
+  text-align: center;
+}
+
+.header-gif {
+  margin-top: 10%;
+  margin-bottom: 0;
+  padding-top: 5px;
+  width: 60%;
+}
+
+.sub-header {
+  margin-top: 2px;
+  font-family: "Plaster", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+  color: rgb(248, 252, 8);
+  -webkit-text-stroke: 3px black;
+  padding: 0;
+}
+
+.navbar-main {
+  background-image: linear-gradient(yellow, red);
+  width: auto;
+  height: 60px;
+  text-align: center;
+  padding-top: 40px;
+  opacity: 0.8;
+  margin-top: 80px;
+  border-radius: 30%;
+  border-width: 4px;
+  border-style: inherit;
+}
+
+.home-button {
+  font-family: "Plaster", "serif";
+  width: 25%;
+  margin-right: 80px;
+  font-size: 20px;
+  color: black;
+  -webkit-text-stroke: 1px rgb(47, 0, 255);
+  cursor: url("https://pixelart.academy/interface/cursors/2x/pointer.png?0.1.0")
+      6 2,
+    pointer;
+  transition: 0.5s;
+}
+
+.home-button:hover {
+  color: red;
+  -webkit-text-stroke: 3px black;
+  font-size: 30px;
+}
+
+.about-button {
+  font-family: "Plaster", "serif";
+  width: 25%;
+  margin-left: 80px;
+  font-size: 20px;
+  color: black;
+  -webkit-text-stroke: 1px rgb(47, 0, 255);
+  cursor: url("https://pixelart.academy/interface/cursors/2x/pointer.png?0.1.0")
+      6 2,
+    pointer;
+  transition: 0.5s;
+}
+
+.about-button:hover {
+  color: red;
+  -webkit-text-stroke: 3px black;
+  font-size: 30px;
 }
