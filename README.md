@@ -1,7 +1,7 @@
-# Name of project
+# Portfolio
 
-> My first attempt to build a simple yet creative and functional website
-using HTML and CSS only.
+> My first attempt to build a simple yet creative and functional website using
+> HTML and CSS only.
 
 ## Table of contents
 
