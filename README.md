@@ -1,6 +1,7 @@
 # Name of project
 
-> A longer description
+> My first attempt to build a simple yet creative and functional website
+using HTML and CSS only.
 
 ## Table of contents
 
@@ -22,7 +23,7 @@
 
 ## General info
 
-> A short description
+> This is the custom blog page that shares some of my interests.
 
 ## Screenshots
 
