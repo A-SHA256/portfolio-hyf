@@ -23,7 +23,7 @@
 
 ## General info
 
-> This is the custom blog page that shares some of my interests.
+> This is the custom blog page that shares some interesting things.
 
 ## Screenshots
 
