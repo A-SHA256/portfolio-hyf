@@ -1,0 +1,202 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url("./page-images/background-5.gif");
+  background-repeat: repeat; /* Repeat the entire line horizontally and vertically */
+  background-size: 25%; /* Each image takes up 25% of the width of the page */
+  cursor: url("https://pixelart.academy/interface/cursors/2x/arrow.png") 2 0,
+    default;
+}
+
+/*HEADER*/
+header {
+  margin-top: 10%;
+}
+
+.header-box {
+  background-image: linear-gradient(red, yellow);
+  width: 30%;
+  margin: auto;
+  border-style: double;
+  border-color: rgb(247, 6, 6);
+  border-radius: 50%;
+  border-width: 20px;
+  box-shadow: 10px 10px 5px rgb(255, 43, 5);
+  box-shadow: 10px 5px 5px 2px inset rgb(255, 217, 5);
+  opacity: 0.9;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.header-gif {
+  margin-top: 10%;
+  padding-top: 5px;
+  width: 60%;
+}
+
+.sub-header {
+  margin-top: 2px;
+  font-family: "Plaster", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 4vw;
+  color: rgb(248, 252, 8);
+  -webkit-text-stroke: 3px black;
+}
+
+/*NAVBAR*/
+.navbar-main {
+  background-image: linear-gradient(160deg, yellow, red);
+  width: 30%;
+  height: 180px;
+  margin-top: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 3%;
+  padding-left: auto;
+  padding-right: auto;
+  border-radius: 60%;
+  border-style: double;
+  border-color: rgb(226, 19, 19);
+  border-width: 1.5cap;
+  box-shadow: 10px 15px 20px 20px inset yellow;
+  box-shadow: 10px 15px 40px rgb(236, 138, 10);
+}
+
+.home-button,
+.about-button {
+  font-family: "Plaster", "serif";
+  /*font-size: 20px;*/
+  font-size: 2vw;
+  color: yellow;
+  -webkit-text-stroke: 2px black;
+  cursor: url("https://pixelart.academy/interface/cursors/2x/pointer.png?0.1.0")
+      6 2,
+    pointer;
+  transition: 0.8s;
+}
+
+.home-button {
+  margin-right: 50px;
+}
+.home-button:hover,
+.about-button:hover {
+  color: red;
+  -webkit-text-stroke: 3px black;
+  font-size: 30px;
+}
+
+.about-button {
+  margin-left: 50px;
+}
+
+/*MAIN CONTENT*/
+.column {
+  float: left;
+  background-image: linear-gradient(160deg, yellow, red);
+  text-align: center;
+  border: 1cap;
+  border-style: solid;
+  border-color: rgb(226, 19, 19);
+  border-width: 1.5cap;
+  box-shadow: 10px 15px 20px 20px inset yellow;
+  box-shadow: 10px 15px 40px rgb(236, 138, 10);
+  border-radius: 40%;
+  border-style: double;
+}
+
+.chat,
+.links {
+  width: 25%;
+  height: 800px;
+}
+
+.main {
+  width: 50%;
+  height: 1000px;
+  border-radius: 10%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*MAIN CONTENT - MAIN COLUMN*/
+.post {
+  background-color: rgb(8, 8, 8);
+  background-image: url("./page-images/background-2.gif");
+  height: 325px;
+  border-radius: 1cap;
+  border-style: double;
+  border-color: rgb(191, 19, 226);
+  box-shadow: 5px 10px 30px inset yellow;
+  object-fit: fill;
+  border-top-left-radius: 8.2cap;
+  border-top-right-radius: 8.2cap;
+  border-bottom-left-radius: 8.2cap;
+  border-bottom-right-radius: 8.2cap;
+  object-fit: fill;
+}
+
+/*SKILLS*/
+.skills-icons img {
+  padding: 40px;
+  border-style: dashed;
+  border-color: yellow;
+  width: fit-content;
+}
+
+/*SUB-HEADERS*/
+h2,
+a[target="_blank"] {
+  display: block;
+  margin-top: 10px;
+  font-family: "Plaster", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(251, 255, 0);
+  -webkit-text-stroke: 2px rgb(12, 12, 12);
+}
+
+h2 {
+  font-size: 2vw;
+}
+/*PORTFOLIO*/
+a[target="_blank"] {
+  padding-top: 6%;
+  font-size: 3vw;
+  cursor: url("https://pixelart.academy/interface/cursors/2x/pointer.png?0.1.0")
+      4 2,
+    pointer;
+  -webkit-text-stroke: 2px black;
+  transition: 0.8s;
+}
+
+a[target="_blank"]:hover {
+  color: red;
+  -webkit-text-stroke: 3px black;
+  font-size: 3.5vw;
+}
+
+/*SPECIAL POST*/
+iframe {
+  margin-top: 8px;
+  border-radius: 25%;
+  border-width: 10px;
+  border-style: double;
+  cursor: url("https://pixelart.academy/interface/cursors/2x/pointer.png?0.1.0")
+      4 2,
+    pointer;
+  width: fit-content;
+}
