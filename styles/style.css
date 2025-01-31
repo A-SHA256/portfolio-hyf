@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   height: 100vh;
   background-image: url("./page-images/background-5.gif");
@@ -37,6 +41,10 @@ header .header-box {
   box-shadow: 10px 5px 5px 2px inset rgb(255, 217, 5);
   opacity: 0.9;
   padding: 8%;
+  transition: 3s;
+}
+header .header-box:hover {
+  transform: rotateX(90deg);
 }
 
 header .header-box .header-gif {
@@ -73,6 +81,7 @@ header .header-box .header-gif {
   border-color: rgb(226, 19, 19);
   border-width: 20px;
   box-shadow: 10px 20px 40px rgb(236, 138, 10);
+  animation: mymove 1s 2;
 }
 
 .home-button,
@@ -373,89 +382,87 @@ footer .right-side svg:hover {
   width: 30%;
 }
 
-/* =========== Desktop first ======== */
-/* 4K screen */
-@media (max-width: 2560px) {
-  .showcase {
-    width: 100%;
+@keyframes mymove {
+  0% {
+    width: 500x;
+    background-image: linear-gradient(180deg, yellow, red);
+  }
+  50% {
+    width: 300px;
+    background-image: linear-gradient(360deg, yellow, red);
+  }
+  100% {
+    width: 500px;
+    background-image: linear-gradient(180deg, yellow, red);
   }
 }
-/* Desktop */
-@media (max-width: 1440px) {
-  .showcase {
-    width: 90%;
-  }
-}
-/* Laptop */
-@media (max-width: 1024px) {
-  .showcase {
-    width: 80%;
-  }
-}
-/* Tablet */
+
+/* MOBILE VIEW (Phones) */
 @media (max-width: 768px) {
-  .showcase {
-    width: 70%;
+  header {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
   }
-}
-/* Mobile L */
-@media (max-width: 425px) {
-  .showcase {
-    width: 65%;
-  }
-}
-/* Mobile M */
-@media (max-width: 375px) {
-  .showcase {
-    width: 60%;
-  }
-}
-/* Mobile S */
-@media (max-width: 320px) {
-  .showcase {
-    width: 50%;
-  }
-}
-/* =========== Mobile first ======== */
-/* Mobile S */
-@media (min-width: 320px) {
-  .showcase {
-    width: 50%;
-  }
-}
-/* Mobile M */
-@media (min-width: 375px) {
-  .showcase {
-    width: 60%;
-  }
-}
-/* Mobile L */
-@media (min-width: 425px) {
-  .showcase {
-    width: 65%;
-  }
-}
-/* Tablet */
-@media (min-width: 768px) {
-  .showcase {
-    width: 70%;
-  }
-}
-/* Laptop */
-@media (min-width: 1024px) {
-  .showcase {
+
+  .header-box {
     width: 80%;
+    height: auto;
+    padding: 5%;
+    border-width: 10px;
   }
-}
-/* Desktop */
-@media (min-width: 1440px) {
-  .showcase {
+
+  .navbar-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-main {
     width: 90%;
+    height: auto;
+    padding: 15px;
+    border-radius: 20px;
+    flex-direction: column;
   }
-}
-/* 4K screen */
-@media (min-width: 2560px) {
-  .showcase {
+
+  .home-button,
+  .about-button {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .column {
+    width: 90%;
+    height: auto;
+  }
+
+  .main {
     width: 100%;
+    border-radius: 10px;
+  }
+
+  .post {
+    height: auto;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
   }
 }
