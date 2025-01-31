@@ -23,47 +23,53 @@
 
 ## General info
 
-> This is the custom blog page that shares some interesting things.
+> This is the custom web page that shares my skills and my finished projects.
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./planning/screenshot-portfolio.png)
 
 ## Technologies
 
 - Node 14.16.0
 - VSC code
-- JavaScript
-- ...
-- ...
+- HTML
+- CSS
+- Dev Tools
 
 ## Setup
 
-- `npm run start`
+- `git clone https://github.com/A-SHA256/portfolio-hyf.git`
+- `npm install`
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```css
+.icons-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 25%;
+}
 ```
 
 ## Features
 
 List of features ready and Todos for future development
 
--
--
--
+- custom elements
+- tumbnails
+- forms
 
 To-do list:
 
--
--
+- animations
+- responsive design
 
 ## Status
 
-Project is: _in progress_
+Project is: `completed`
 
 ## Inspiration
 
@@ -71,7 +77,7 @@ Project by freeCodeCamp.org
 
 ## Contact
 
-By [Name]
+By [A-SHA256](https://github.com/A-SHA256)
 
 ## Instructions for use
 
